@@ -19,3 +19,18 @@ a {
 image {
     max-width: 100%;
 }
+
+/* layout */
+.align-center {
+    text-align: center;
+}
+
+/* header
+--------------------------- */
+.page-header {
+    padding-top: .5rem;
+}
+
+.logo {
+    width: 210px;
+}
