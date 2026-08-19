@@ -53,6 +53,6 @@ img {
     color: #432;
 }
 
-.main-nav a.hover {
+.main-nav a:hover {
     color: #0bd;
 }
