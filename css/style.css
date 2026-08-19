@@ -56,3 +56,10 @@ img {
 .main-nav a:hover {
     color: #0bd;
 }
+
+.page-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.4;
+}
