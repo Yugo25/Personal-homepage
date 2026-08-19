@@ -1,1 +1,58 @@
+@charset "UTF-8";
 
+/* common part
+---------------------------*/
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* layout */
+.align-center {
+    text-align: center;
+}
+
+/* header font */
+.font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal
+}
+
+/* header
+--------------------------- */
+.page-header {
+    padding-top: .5rem;
+}
+
+.logo {
+    width: 210px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+.main-nav a:hover {
+    color: #0bd;
+}
