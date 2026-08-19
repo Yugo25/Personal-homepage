@@ -41,4 +41,18 @@ img {
     width: 210px;
 }
 
-.main-nav
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+.main-nav a.hover {
+    color: #0bd;
+}
