@@ -25,6 +25,12 @@ img {
     text-align: center;
 }
 
+/* header font */
+.fon-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal
+}
+
 /* header
 --------------------------- */
 .page-header {
@@ -34,3 +40,5 @@ img {
 .logo {
     width: 210px;
 }
+
+.main-nav
