@@ -63,3 +63,13 @@ img {
     margin-top: 1rem;
     line-height: 1.4;
 }
+
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+
+.cover-home {
+    background-image: url(../images/background.png);
+}
