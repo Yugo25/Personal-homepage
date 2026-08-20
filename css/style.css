@@ -31,6 +31,20 @@ img {
     font-weight: normal
 }
 
+/* button */
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+}
+
+.btn:hover {
+    background-cover: #0090aa;
+}
+
 /* header
 --------------------------- */
 .page-header {
