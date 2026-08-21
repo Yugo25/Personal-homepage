@@ -31,6 +31,21 @@ img {
     font-weight: normal
 }
 
+/* button */
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-cover: #0090aa;
+}
+
 /* header
 --------------------------- */
 .page-header {
@@ -57,11 +72,19 @@ img {
     color: #0bd;
 }
 
-.page-title {
-    font-size: 2rem;
+.page-title,
+.heading-large {
+    font-size: 2.5rem;
     text-align: center;
+}
+
+.page-title {
     margin-top: 1rem;
     line-height: 1.4;
+}
+
+.heading-large {
+    margin-bottom: 1rem;
 }
 
 .cover {
@@ -72,4 +95,14 @@ img {
 
 .cover-home {
     background-image: url(../images/background.png);
+}
+
+.about {
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 4rem;
+}
+
+.about p {
+    margin-bottom: 3rem;
 }
