@@ -147,3 +147,20 @@ img {
     margin-top: 6rem;
     color: #fff;
 }
+
+/* Desktop ver 
+----------------------------------- */
+@media (min-width: 800px) {
+    /* Heading */
+    .page-title {
+        font-size: 4rem;
+    }
+    .heading-large {
+        font-size:3.5rem
+    }
+    
+    /* header */
+    .main-nav {
+        font-size: 2rem
+    }
+}
