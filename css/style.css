@@ -109,6 +109,14 @@ img {
 
 /* footer 
 -----------------------------*/
+
+.page-footer {
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+}
+
 .info {
     width: 100%;
     max-width: 544px;
