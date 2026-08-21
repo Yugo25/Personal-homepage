@@ -174,4 +174,21 @@ img {
     .main-nav {
         font-size: 2rem
     }
+    
+    /* Home */
+    .cover-home {
+        background-image: url(..images/background.png)
+    }
+    .about {
+        margin: 4rem auto 0;
+    }
+    
+    /* footer */
+    .page-footer {
+        background-image: url(../images/footer.png)
+        padding-top: 12rem;
+    }
+    .info th {
+        padding-left: 2.5rem;
+    }
 }
