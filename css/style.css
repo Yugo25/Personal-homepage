@@ -122,6 +122,12 @@ img {
     margin-bottom: 3rem;
 }
 
+/* NEWS
+--------------------------------*/
+.cover-news {
+    background-image: url(../images/news-background.png);
+}
+
 /* footer 
 -----------------------------*/
 
