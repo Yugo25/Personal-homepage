@@ -99,6 +99,15 @@ img {
     height: 800px;
 }
 
+.sub-cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+}
+
+/* HOME
+------------------------------*/
 .cover-home {
     background-image: url(../images/background.png);
 }
