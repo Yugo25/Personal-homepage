@@ -48,7 +48,7 @@ img {
     transition: .5s;
 }
 
-.btn:hover {
+.btn a:hover {
     background-cover: #0090aa;
 }
 
@@ -192,7 +192,7 @@ img {
     max-width: 544px;
     margin: auto;
     padding: 0 1.5rem;
-    birder-spacing: 0;
+    border-spacing: 0;
 }
 
 .info th,
@@ -249,7 +249,7 @@ img {
     
     /* footer */
     .page-footer {
-        background-image: url(../images/footer.png)
+        background-image: url(../images/footer.png);
         padding-top: 12rem;
     }
     .info th {
