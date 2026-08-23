@@ -326,6 +326,10 @@ img {
     .cover-history {
         background-image: url(../images/history-background.PNG);
     }
+    .grid {
+        gap: 2rem 3rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
     
     /* footer */
     .page-footer {
