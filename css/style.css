@@ -200,6 +200,12 @@ img {
     color: #0bd;
 }
 
+/* History
+-----------------------------*/
+.cover-history {
+    background-image: url(../images/history-background.png);
+}
+
 /* footer 
 -----------------------------*/
 
