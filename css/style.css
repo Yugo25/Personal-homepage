@@ -279,6 +279,23 @@ img {
         margin: 4rem auto 0;
     }
     
+    /* News */
+    .news-contents {
+        display: flex;
+        justify-content: space-between;
+    }
+    .post {
+        width: 70%;
+    }
+    .sidebar {
+        width: 22%;
+    }
+    .sidebar,
+    .heading-medium {
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+    
     /* footer */
     .page-footer {
         background-image: url(../images/footer.png);
