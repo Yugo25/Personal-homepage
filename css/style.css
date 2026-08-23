@@ -48,7 +48,7 @@ img {
     transition: .5s;
 }
 
-.btn:hover {
+.btn a:hover {
     background-cover: #0090aa;
 }
 
@@ -79,7 +79,8 @@ img {
 }
 
 .page-title,
-.heading-large {
+.heading-large,
+.heading-medium {
     font-size: 2.5rem;
     text-align: center;
 }
@@ -99,6 +100,15 @@ img {
     height: 800px;
 }
 
+.sub-cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+}
+
+/* HOME
+------------------------------*/
 .cover-home {
     background-image: url(../images/background.png);
 }
@@ -111,6 +121,83 @@ img {
 
 .about p {
     margin-bottom: 3rem;
+}
+
+/* NEWS
+--------------------------------*/
+.cover-news {
+    background-image: url(../images/news-background.png);
+}
+
+/* Articke part
+-------------------------------- */
+.post {
+    margin-bottom: 3rem;
+}
+
+.post-title {
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+
+.post-info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.post-cat {
+    display: flex;
+    gap: .5rem;
+    list-style: none;
+}
+
+.post-cat a {
+    color: #432;
+    background-color: #faf7f0;
+    border-radius: 8px;
+    font-size: .875rem;
+    padding: .5rem .75rem;
+}
+
+.post-cat a:hover {
+    background-color: #c9c2bc;
+}
+
+.post-date {
+    font-size: .875rem;
+}
+
+.post-thumbnail {
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.post p {
+    margin-bottom: 1.5rem;
+    line-height: 2;
+}
+
+/* Sidebar
+------------------------------*/
+.side-menu {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.side-menu li {
+    border-bottom: 1px solid #c9c2bc;
+}
+
+.side-menu a {
+    color: #432;
+    display: block;
+    padding: 1rem;
+}
+
+.side-menu a:hover {
+    color: #0bd;
 }
 
 /* footer 
@@ -128,7 +215,7 @@ img {
     max-width: 544px;
     margin: auto;
     padding: 0 1.5rem;
-    birder-spacing: 0;
+    border-spacing: 0;
 }
 
 .info th,
@@ -164,6 +251,9 @@ img {
     .heading-large {
         font-size:3.5rem
     }
+    .post-title {
+        font-size: 2rem;
+    }
     
     /* header */
     .page-header {
@@ -175,6 +265,12 @@ img {
         font-size: 2rem
     }
     
+    /* Header cover photo */
+    .sub-cover {
+        height: 400px;
+        margin-bottom: 6rem;
+    }
+    
     /* Home */
     .cover-home {
         background-image: url(..images/background.png)
@@ -183,9 +279,32 @@ img {
         margin: 4rem auto 0;
     }
     
+    /* News */
+    .news-contents {
+        display: flex;
+        justify-content: space-between;
+    }
+    .post {
+        width: 60%;
+        order: 2;
+    }
+    .sidebar {
+        width: 22%;
+        order: 3;
+    }
+    .ad {
+        order: 1;
+    }
+    
+    .sidebar,
+    .heading-medium {
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+    
     /* footer */
     .page-footer {
-        background-image: url(../images/footer.png)
+        background-image: url(../images/footer.png);
         padding-top: 12rem;
     }
     .info th {
