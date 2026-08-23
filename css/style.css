@@ -322,6 +322,11 @@ img {
         margin-bottom: 1rem;
     }
     
+    /* History */
+    .cover-history {
+        background-image: url(../images/history-background.PNG);
+    }
+    
     /* footer */
     .page-footer {
         background-image: url(../images/footer.png);
