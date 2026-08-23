@@ -220,6 +220,12 @@ img {
     font-size: .875rem;
 }
 
+/* Contact
+------------------------------*/
+.cover-contact {
+    background-image: url(../images/contact-background.PNG);
+}
+
 /* footer 
 -----------------------------*/
 
