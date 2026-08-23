@@ -330,6 +330,12 @@ img {
         gap: 2rem 3rem;
         grid-template-columns: repeat(3, 1fr);
     }
+    .item img {
+        margin-bottom: .5rem;
+    }
+    .item p {
+        font-size: 1rem;
+    }
     
     /* footer */
     .page-footer {
