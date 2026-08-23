@@ -190,7 +190,7 @@ img {
     border-bottom: 1px solid #c9c2bc;
 }
 
-.side-menu {
+.side-menu a {
     color: #432;
     display: block;
     padding: 1rem;
