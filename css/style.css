@@ -251,6 +251,9 @@ img {
     .heading-large {
         font-size:3.5rem
     }
+    .post-title {
+        font-size: 2rem;
+    }
     
     /* header */
     .page-header {
@@ -260,6 +263,12 @@ img {
     }
     .main-nav {
         font-size: 2rem
+    }
+    
+    /* Header cover photo */
+    .sub-cover {
+        height: 400px;
+        margin-bottom: 6rem;
     }
     
     /* Home */
