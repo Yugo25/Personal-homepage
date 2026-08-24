@@ -220,6 +220,23 @@ img {
     font-size: .875rem;
 }
 
+/* Contact
+------------------------------*/
+.cover-contact {
+    background-image: url(../images/contact-background.PNG);
+}
+
+/* Info */
+.location {
+    margin-bottom: 3.5rem;
+}
+.location-info {
+    margin-bottom: 2rem;
+}
+.location-info .info {
+    padding: 0;
+}
+
 /* footer 
 -----------------------------*/
 
