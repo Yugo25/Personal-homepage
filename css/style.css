@@ -123,7 +123,10 @@ img {
 }
 
 .page-title {
-    margin-top: 1rem;
+    margin-top: .5rem;
+    border-top: 2px solid #c9c2bc;
+    padding: .5rem;
+    margin-bottom: 2rem;
     line-height: 1.4;
 }
 
@@ -133,14 +136,14 @@ img {
 
 .cover {
     background-size: cover;
-    background-position: center bottom;
+    background-position: center 80%;
     height: 130px;
 }
 
 .sub-cover {
     background-size: cover;
-    background-position: center bottom;
-    height: 528px;
+    background-position: center 80%;
+    height: 180px;
     margin-bottom: 4rem;
 }
 
@@ -353,12 +356,13 @@ img {
         padding-top: 1.5rem;
     }
     .main-nav {
-        font-size: 1.5rem
+        font-size: 1.5rem;
+        padding-top: 1.3rem;
     }
     
     /* Header cover photo */
     .sub-cover {
-        height: 400px;
+        height: 220px;
         margin-bottom: 6rem;
     }
     
