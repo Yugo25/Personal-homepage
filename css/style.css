@@ -240,10 +240,10 @@ img {
     color: #0bd;
 }
 
-/* History
+/* Story
 -----------------------------*/
-.cover-history {
-    background-image: url(../images/history-background.PNG);
+.cover-story {
+    background-image: url(../images/story-background.PNG);
 }
 .grid {
     display: grid;
@@ -394,7 +394,7 @@ img {
         margin-bottom: 1rem;
     }
     
-    /* History */
+    /* Story */
     .grid {
         gap: 2rem 3rem;
         grid-template-columns: repeat(3, 1fr);
