@@ -6,6 +6,11 @@ html {
     font-size: 100%;
 }
 
+:root {
+    --light-grey: #f0f0f0;
+    --light-green: #c2e6c2;
+}
+
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
@@ -20,7 +25,8 @@ img {
     max-width: 100%;
 }
 
-/* layout */
+/* layout 
+================================================*/
 .wrapper {
     max-width: 1120px;
     margin: auto;
@@ -29,6 +35,28 @@ img {
 
 .align-center {
     text-align: center;
+}
+
+/* Loading
+==================================================*/
+#loading {
+    background-color: var(--light-grey);
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+}
+#loading-screen {
+    background-color: var(--light-green);
+    position: fixed;
+    inset: 0;
+    z-index: 9998;
+    translate: 0 100vh;
+}
+#loading p {
+    font-size: 1.5rem;
+    font-family: 'Philosopher', sans-serif;
 }
 
 /* header font */
