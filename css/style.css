@@ -49,7 +49,7 @@ img {
 }
 
 .btn a:hover {
-    background-cover: #0090aa;
+    background-color: #0090aa;
 }
 
 /* header
@@ -59,14 +59,23 @@ img {
 }
 
 .logo {
-    width: 210px;
+    display: block;
+    text-align: center;
+    font-size: 1.75rem;
+    color: #432;
+}
+
+.logo-tagline {
+    display: block;
+    font-size: 0.7rem;
+    color: #888;
 }
 
 .main-nav {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     list-style: none;
 }
 
@@ -81,7 +90,7 @@ img {
 .page-title,
 .heading-large,
 .heading-medium {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -97,7 +106,7 @@ img {
 .cover {
     background-size: cover;
     background-position: center bottom;
-    height: 800px;
+    height: 130px;
 }
 
 .sub-cover {
@@ -294,7 +303,7 @@ img {
 @media (min-width: 800px) {
     /* Heading */
     .page-title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .heading-large {
         font-size:3.5rem
@@ -304,13 +313,19 @@ img {
     }
     
     /* header */
+    .logo {
+        font-size: 2.5rem;
+    }
+    .logo-tagline {
+        font-size: .85rem;
+    }
     .page-header {
         display: flex;
         justify-content: space-between;
         padding-top: 1.5rem;
     }
     .main-nav {
-        font-size: 2rem
+        font-size: 1.5rem
     }
     
     /* Header cover photo */
@@ -320,9 +335,6 @@ img {
     }
     
     /* Home */
-    .cover-home {
-        background-image: url(..images/background.png)
-    }
     .about {
         margin: 4rem auto 0;
     }
@@ -351,9 +363,6 @@ img {
     }
     
     /* History */
-    .cover-history {
-        background-image: url(../images/history-background.PNG);
-    }
     .grid {
         gap: 2rem 3rem;
         grid-template-columns: repeat(3, 1fr);
