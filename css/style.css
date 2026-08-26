@@ -327,7 +327,7 @@ img {
     background-image: url(../images/footer.png);
     background-size: cover;
     background-position: center;
-    padding-top: 12rem;
+    padding-top: 4rem;
 }
 
 .info {
@@ -475,10 +475,6 @@ img {
     }
     
     /* footer */
-    .page-footer {
-        background-image: url(../images/footer.png);
-        padding-top: 12rem;
-    }
     .info th {
         padding-left: 2.5rem;
     }

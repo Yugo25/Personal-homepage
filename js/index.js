@@ -52,3 +52,12 @@ window.addEventListener('load', () => {
         }
     );
 });
+
+/* 
+Story
+================================================ */
+const mainImage = document.querySelector('.story-image img');
+const thumbImages = document.querySelectorAll('.story-thumbnails img');
+
+// console.log(thumbImages);
+console.log(mainImage);
