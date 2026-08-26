@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
     // While loading -- green screen
     loadingAreaGreen.animate(
         {
-            translate: ['0 100vh', '0, 0', '0 -100vh']
+            translate: ['0 100vh', '0 0', '0 -100vh']
         },
         {
             duration: 2000,
@@ -52,12 +52,3 @@ window.addEventListener('load', () => {
         }
     );
 });
-
-/* 
-Story
-================================================ */
-const mainImage = document.querySelector('.story-image img');
-const thumbImages = document.querySelectorAll('.story-thumbnails img');
-
-// console.log(thumbImages);
-console.log(mainImage);
