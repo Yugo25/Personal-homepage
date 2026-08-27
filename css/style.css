@@ -271,11 +271,15 @@ img {
 .story-thumbnails {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, minmax(0,1fr));
     list-style: none;
     margin: 1rem 0;
+    max-height: 60vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .story-thumbnails img {
+    width: 100%;
     aspect-ratio: 3/4;
     object-fit: cover;
     cursor: pointer;
@@ -458,7 +462,7 @@ img {
     }
     .story-thumbnails {
         gap: 2vw;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0,1fr));
         flex: 1;
         min-height: 0;
         overflow-y: auto;
