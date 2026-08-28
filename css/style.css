@@ -8,8 +8,9 @@ html {
 
 :root {
     --light-grey: #f0f0f0;
-    --light-green: #c2e6c2;   
+    --light-green: #d5edeb;   
     --white: #fff;
+    --brown: #403632;
 }
 
 body {
@@ -100,22 +101,6 @@ img {
     color: #888;
 }
 
-.main-nav {
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-    font-size: 1rem;
-    list-style: none;
-}
-
-.main-nav a {
-    color: #432;
-}
-
-.main-nav a:hover {
-    color: #0bd;
-}
-
 .page-title,
 .heading-large,
 .heading-medium {
@@ -147,6 +132,71 @@ img {
     height: 180px;
     margin-bottom: 4rem;
 }
+
+/*
+SLIDE MENU
+=============================================== */
+/* Open and close button */
+.btn-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 4;
+    padding: .5rem 1rem;
+    border: 1px solid var(--brown);
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    transition: .4s;
+}
+.btn-menu svg {
+    fill: var(--brown);
+    margin-top: .25rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Close button */
+#menu-close {
+    border: 1px solid var(--light-green);
+}
+#menu-close svg {
+    fill: var(--light-green);
+}
+
+/* Slide menu pannel */
+#menu-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    padding: 8rem 2rem 2rem;
+    width: max(32vw, 20rem);
+    height: 100vh;
+    background-color: var(--brown);
+    box-shadow: 0 0 2rem var(--brown);
+    font-family: var(--oswald-font);
+    translate: 100vw;
+}
+.main-nav {
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+}
+.main-nav li {
+    margin: 1.5rem 0;
+}
+
+.main-nav a {
+    color: var(--light-green);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.main-nav a:hover {
+    color: #0bd;
+}
+
 
 /* HOME
 ------------------------------*/
@@ -332,6 +382,7 @@ img {
     background-size: cover;
     background-position: center;
     padding-top: 4rem;
+    margin-top: 2rem;
 }
 
 .info {
